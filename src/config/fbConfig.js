@@ -11,6 +11,7 @@ var config = {
   storageBucket: "net-ninja-marioplan-96b5e.appspot.com",
   messagingSenderId: "552260918318"
 };
+
 firebase.initializeApp(config);
 firebase.firestore().settings({ timestampsInSnapshots: true })
 
