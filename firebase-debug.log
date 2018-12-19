@@ -1,0 +1,87 @@
+[debug] [2018-12-19T17:52:11.510Z] ----------------------------------------------------------------------
+[debug] [2018-12-19T17:52:11.514Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-12-19T17:52:11.514Z] CLI Version:   6.1.2
+[debug] [2018-12-19T17:52:11.514Z] Platform:      linux
+[debug] [2018-12-19T17:52:11.515Z] Node Version:  v8.10.0
+[debug] [2018-12-19T17:52:11.515Z] Time:          Wed Dec 19 2018 15:52:11 GMT-0200 (-02)
+[debug] [2018-12-19T17:52:11.515Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-19T17:52:11.576Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-19T17:52:11.576Z] > authorizing via signed-in user
+[debug] [2018-12-19T17:52:11.577Z] [iam] checking project net-ninja-marioplan-96b5e for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2018-12-19T17:52:11.579Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/net-ninja-marioplan-96b5e:testIamPermissions  
+
+[debug] [2018-12-19T17:52:12.626Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-19T17:52:12.628Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/net-ninja-marioplan-96b5e  
+ 
+[debug] [2018-12-19T17:52:13.301Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'net-ninja-marioplan-96b5e'...
+[info] 
+[info] i  deploying functions, hosting
+[debug] [2018-12-19T17:52:15.578Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.1.0"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-12-19T17:52:15.579Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/net-ninja-marioplan-96b5e?view=CONSUMER_VIEW  
+ 
+[debug] [2018-12-19T17:52:15.580Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/net-ninja-marioplan-96b5e?view=CONSUMER_VIEW  
+ 
+[debug] [2018-12-19T17:52:16.709Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-19T17:53:42.442Z] ----------------------------------------------------------------------
+[debug] [2018-12-19T17:53:42.445Z] Command:       /usr/bin/node /usr/local/bin/firebase deploy --only functions
+[debug] [2018-12-19T17:53:42.445Z] CLI Version:   6.1.2
+[debug] [2018-12-19T17:53:42.445Z] Platform:      linux
+[debug] [2018-12-19T17:53:42.445Z] Node Version:  v8.10.0
+[debug] [2018-12-19T17:53:42.446Z] Time:          Wed Dec 19 2018 15:53:42 GMT-0200 (-02)
+[debug] [2018-12-19T17:53:42.446Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-19T17:53:42.457Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-19T17:53:42.458Z] > authorizing via signed-in user
+[debug] [2018-12-19T17:53:42.459Z] [iam] checking project net-ninja-marioplan-96b5e for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2018-12-19T17:53:42.462Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/net-ninja-marioplan-96b5e:testIamPermissions  
+
+[debug] [2018-12-19T17:53:43.163Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'net-ninja-marioplan-96b5e'...
+[info] 
+[info] i  deploying functions
+[debug] [2018-12-19T17:53:45.575Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~6.0.0",
+    "firebase-functions": "^2.1.0"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-12-19T17:53:45.576Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/net-ninja-marioplan-96b5e?view=CONSUMER_VIEW  
+ 
+[debug] [2018-12-19T17:53:45.577Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/net-ninja-marioplan-96b5e?view=CONSUMER_VIEW  
+ 
+[debug] [2018-12-19T17:53:46.683Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-19T17:53:46.867Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2018-12-19T17:53:46.869Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/net-ninja-marioplan-96b5e  
+ 
