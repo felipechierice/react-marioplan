@@ -4,6 +4,10 @@ Fiz esse projeto seguindo o curso relizado pelo canal "The Net Ninja", o qual in
 
 Link do curso: https://www.youtube.com/watch?v=Oi4v5uxTY5o&list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
 
+Conceitos do Firebase introduzidos e ensinados: Firestore, Functions, Authentication, Rules e Hosting.
+
+Meu projeto disponível em: https://net-ninja-marioplan-96b5e.firebaseapp.com/
+
 ---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
