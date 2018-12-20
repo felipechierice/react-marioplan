@@ -1,3 +1,11 @@
+## Projeto "MarioPlan" feito para estudo em ReactJS e Firebase
+
+Fiz esse projeto seguindo o curso relizado pelo canal "The Net Ninja", o qual introduz os conceitos do Firebase aplicados num projeto ReactJS.
+
+Link do curso: https://www.youtube.com/watch?v=Oi4v5uxTY5o&list=PL4cUxeGkcC9iWstfXntcj8f-dFZ4UtlN3
+
+---
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
